@@ -21,4 +21,11 @@ void save(std::string data)
 	std::copy(std::istreambuf_iterator<char>(in),
 		std::istreambuf_iterator<char>(),
 		std::ostreambuf_iterator<char>(out));
+
+	//auto b = std::chrono::steady_clock::now();//시간재기 시작
+	//std::this_thread::sleep_for(123456us);
+	//auto t = std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::steady_clock::now() - b);
+
+
+	//std::cout << t.count() << "마이크로초 경과" << std::endl;
 }

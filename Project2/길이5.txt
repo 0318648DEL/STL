@@ -1,0 +1,1 @@
+smartSTL은C++의arrayarraydequequeueusing한다.없다.위주,위주.const(autolen5;len6;endl;len6,""));
